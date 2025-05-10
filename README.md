@@ -129,6 +129,10 @@ tensorboard --logdir runs --port 6006
 | Annotation | YOLO txt (x<sub>c</sub>, y<sub>c</sub>, w, h) |
 | License | CC BY 4.0 |
 
+<p align="center">
+  <img src="figs/Chars.png" width="450">
+</p>
+
 ### Pre‑processing & Augmentation
 
 - HSV/brightness shift  
@@ -162,10 +166,7 @@ python Training.py --batch 16 --epochs 200 --lr 0.01 --weights yolo11s.pt
 
 ## Results
 
-<p align="center">
-  <img src="figs/PR_curve_fold0.png" width="450">
-  <img src="figs/confusion_matrix.png" width="450">
-</p>
+
 
 | Fold | Precision | Recall | mAP@0.5 | mAP@0.5‑0.95 |
 |------|-----------|--------|---------|--------------|
@@ -175,6 +176,14 @@ python Training.py --batch 16 --epochs 200 --lr 0.01 --weights yolo11s.pt
 | 3 | 0.984 | 0.996 | 0.995 | 0.740 |
 | 4 | 0.981 | 0.995 | 0.992 | 0.737 |
 | **Mean** | **0.982** | **0.996** | **0.994** | **0.743** |
+
+<p align="center">
+  <img src="figs/Cross.png" width="450">
+  <img src="figs/Cross2.png" width="450">
+  <img src="figs/Figure_1.png" width="450">
+  <img src="figs/MAP.png" width="450">
+  <img src="figs/MAP50.png" width="450">
+</p>
 
 Full logs and plots live in `runs/`.
 
