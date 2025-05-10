@@ -130,7 +130,7 @@ tensorboard --logdir runs --port 6006
 | License | CC BY 4.0 |
 
 <p align="center">
-  <img src="figs/Chars.png" width="450">
+  <img src="figs/chars.png">
 </p>
 
 ### Pre‑processing & Augmentation
@@ -178,11 +178,11 @@ python Training.py --batch 16 --epochs 200 --lr 0.01 --weights yolo11s.pt
 | **Mean** | **0.982** | **0.996** | **0.994** | **0.743** |
 
 <p align="center">
-  <img src="figs/Cross.png" width="450">
-  <img src="figs/Cross2.png" width="450">
-  <img src="figs/Figure_1.png" width="450">
-  <img src="figs/MAP.png" width="450">
-  <img src="figs/MAP50.png" width="450">
+  <img src="figs/Cross.png">
+  <img src="figs/Cross2.png">
+  <img src="figs/Figure_1.png">
+  <img src="figs/MAP.png">
+  <img src="figs/MAP50.png">
 </p>
 
 Full logs and plots live in `runs/`.
